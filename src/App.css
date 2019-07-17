@@ -9,10 +9,11 @@ Taupe - #DDDFD4 */
 }
 
 .container {
-  width: 25%;
+  width: 20%;
   padding: 10px;
   margin: 0 auto;
-  background-color: #DDDFD4;
+  background-color: #dddfd4;
+  border-radius: 5px;
 }
 
 .roster {
@@ -30,7 +31,32 @@ li {
   margin: 10px;
 }
 
-button{
-  background-color:#3FB0AC;
+button {
+  background-color: #3fb0ac;
   margin: 5px;
+  font-size: .8em;
+  font-weight: normal;
 }
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: .8em;
+  display: block;
+  float: left;
+}
+
